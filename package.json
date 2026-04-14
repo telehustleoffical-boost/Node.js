@@ -1,0 +1,20 @@
+{
+  "name": "payquest-api",
+  "version": "1.0.0",
+  "description": "PayQuest Wallet API - Vercel Serverless",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "firebase-admin": "^12.0.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
